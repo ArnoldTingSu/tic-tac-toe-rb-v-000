@@ -53,11 +53,7 @@ end
     else turn(board)
   end
     
-    def player_move(board, index, player)
-  board[index] = player
-end
-    
-  end
+ 
 
 
 def won?(board)
