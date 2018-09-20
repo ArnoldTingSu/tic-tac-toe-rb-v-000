@@ -26,6 +26,10 @@ def input_to_index(input)
     input.to_i - 1
   end
 
+def player_move(board, index, player)
+  board[index] = player
+end
+
 def valid_move?(board,index)
 index.between?(0,8) && !position_taken?(board,index)
 
